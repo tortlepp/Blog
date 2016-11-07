@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^go/([^/]*)$ /goto.php?page=$1 [L]
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]

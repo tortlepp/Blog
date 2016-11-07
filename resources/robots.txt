@@ -1,0 +1,4 @@
+Sitemap: http://blog.ortlepp.eu/sitemap.xml
+
+User-agent: ia_archiver
+Disallow: /
