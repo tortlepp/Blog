@@ -2,13 +2,12 @@
 ;;created=2016-08-04 17:15
 ;;noblog
 
-**Verantwortlich für diesen Blog**  
-Thorsten Ortlepp
+<p><em><small>Notice: This "Impressum" has to be here because of German law</small></em></p>
+
+**Verantwortlich für den Inhalt**
+
+<p><img src="about/impressum-1.png" alt="Impressum (Teil 1)" class="special" /></p>
 
 **Kontakt**  
-hello.world@ortlepp.eu
 
-**Postanschrift**  
-Kardinalstraße 34  
-48165 Münster  
-Deutschland
+<p><img src="about/impressum-2.png" alt="Impressum (Teil 2)" class="special" /></p>
