@@ -6,8 +6,3 @@
   Header set X-Frame-Options "DENY"
   Header set X-XSS-Protection "1; mode=block"
 </IfModule>
-
-# Force HTTPS
-RewriteEngine on
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
