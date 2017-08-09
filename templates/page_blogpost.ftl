@@ -10,8 +10,8 @@
   <link rel="alternate" type="application/atom+xml" href="${basedir}blog.xml" title="${blog.title} (Atom Feed)">
  </head>
  <body>
-  <#include "include_header.ftl">
   <div id="content">
+   <#include "include_header.ftl">
 
    <article>
     <header><h1>${post.title}</h1></header>

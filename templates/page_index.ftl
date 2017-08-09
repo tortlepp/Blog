@@ -10,11 +10,11 @@
   <link rel="alternate" type="application/atom+xml" href="${basedir}blog.xml" title="${blog.title} (Atom Feed)">
  </head>
  <body>
-  <#include "include_header.ftl">
   <div id="content">
+   <#include "include_header.ftl">
 
    <#list posts as post>
-    <article>
+    <article class="post">
      <header><h1><a href="${post.link}">${post.title}</a></h1></header>
      ${post.content}
      <footer><p>Published on ${post.created?date?string.long} at ${post.created?time?string.short} by <a href="${basedir}about/thorsten.html">${blog.author}</a> | Categories:&nbsp;<#list post.categories as category><a href="${category.path}">${category.name}</a>&nbsp;&nbsp;</#list></p></footer>

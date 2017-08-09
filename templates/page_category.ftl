@@ -10,15 +10,15 @@
   <link rel="alternate" type="application/atom+xml" href="${basedir}blog.xml" title="${blog.title} (Atom Feed)">
  </head>
  <body>
-  <#include "include_header.ftl">
   <div id="content">
+   <#include "include_header.ftl">
 
    <article>
     <p id="hint">This pages shows all posts in the category "${category}"</p>
    </article>
 
    <#list posts as post>
-    <article>
+    <article class="post">
      <header><h1><a href="${post.link}">${post.title}</a></h1></header>
      ${post.content?keep_before("</p>")} [...]</p>
      <p><a href="${post.link}">Continue Reading</a></p>

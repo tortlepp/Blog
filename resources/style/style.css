@@ -12,19 +12,19 @@ div#content {
 }
 
 header#pageheader {
- background-color: #3cb371;
+ border-bottom: dotted 2px #ffd700;
  text-align: center;
  padding: 5px 0;
 }
 header#pageheader h1 {
  margin: 0;
- letter-spacing: 3px;
- font-size: 1.2em;
+ letter-spacing: 2px;
+ font-size: 1.5em;
  font-weight: normal;
  text-transform: lowercase;
 }
 header#pageheader h1 a {
- color: #fff;
+ color: #000;
  text-decoration: none;
 }
 
@@ -43,6 +43,10 @@ footer#pagefooter p a {
 
 article {
  margin: 40px 10px;
+}
+article.post {
+ border-left: 3px solid #ffd700;
+ padding-left: 10px;
 }
 article header h1 {
  margin: 0;
@@ -63,10 +67,10 @@ article p#nav {
  font-size: 0.95em;
 }
 article a {
- color: #3cb371;
+ color: #2f4f4f;
 }
 article a:hover {
- color: #2e8b57;
+ color: #696969;
 }
 article p img {
  display: block;
@@ -93,6 +97,9 @@ article pre {
 article header h1 a {
  color: #000;
  text-decoration: none;
+}
+article header h1 a:hover {
+ color: #000;
 }
 article footer p {
  font-style: italic;
