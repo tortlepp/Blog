@@ -14,7 +14,7 @@
    <#include "include_header.ftl">
 
    <article>
-    <header><h1>${page.title}</h1></header>
+    <header><h2>${page.title}</h2></header>
     ${page.content}
    </article>
 

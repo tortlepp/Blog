@@ -13,13 +13,11 @@
   <div id="content">
    <#include "include_header.ftl">
 
-   <article>
-    <p id="hint">This pages shows all posts in the category "${category}"</p>
-   </article>
+   <p id="hint">This pages shows all posts in the category "${category}"</p>
 
    <#list posts as post>
     <article class="post">
-     <header><h1><a href="${post.link}">${post.title}</a></h1></header>
+     <header><h2><a href="${post.link}">${post.title}</a></h2></header>
      ${post.content?keep_before("</p>")} [...]</p>
      <p><a href="${post.link}">Continue Reading</a></p>
     </article>

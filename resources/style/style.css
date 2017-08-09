@@ -48,7 +48,7 @@ article.post {
  border-left: 3px solid #ffd700;
  padding-left: 10px;
 }
-article header h1 {
+article header h2 {
  margin: 0;
  letter-spacing: 1px;
  font-size: 1.3em;
@@ -58,13 +58,6 @@ article p {
  margin: 10px 0;
  line-height: 130%;
  font-size: 1.0em;
-}
-article p#hint {
- font-style: italic;
-}
-article p#nav {
- text-align: center;
- font-size: 0.95em;
 }
 article a {
  color: #2f4f4f;
@@ -94,11 +87,11 @@ article pre {
  margin-left: 5px;
  margin-right: 5px;
 }
-article header h1 a {
+article header h2 a {
  color: #000;
  text-decoration: none;
 }
-article header h1 a:hover {
+article header h2 a:hover {
  color: #000;
 }
 article footer p {
@@ -107,4 +100,20 @@ article footer p {
 }
 code {
  font-family: monospace;
+}
+p#hint {
+ margin: 40px 10px;
+ font-style: italic;
+ font-size: 1.0em;
+}
+p#nav {
+ margin: 40px 10px;
+ text-align: center;
+ font-size: 0.95em;
+}
+p#nav a {
+ color: #2f4f4f;
+}
+p#nav a:hover {
+ color: #696969;
 }
